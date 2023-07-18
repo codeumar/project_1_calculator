@@ -109,7 +109,7 @@ Array.from(button).forEach((btn) => btn.addEventListener("click", (e) => {
         }
         else {
             fakestr += "sin(";
-            realstr += "Math.sin(";
+            //realstr += "Math.sin(";
         }
         intagIn.value = fakestr;
     }
@@ -121,7 +121,7 @@ Array.from(button).forEach((btn) => btn.addEventListener("click", (e) => {
         }
         else {
             fakestr += "cos(";
-            realstr += "Math.cos(";
+            //realstr += "Math.cos(";
         }
         intagIn.value = fakestr;
     }
@@ -145,7 +145,7 @@ Array.from(button).forEach((btn) => btn.addEventListener("click", (e) => {
         }
         else {
             fakestr += "PI";
-            realstr += "Math.PI";
+            // realstr += "Math.PI";
             console.log(realstr);
         }
         intagIn.value = fakestr;
@@ -158,7 +158,7 @@ Array.from(button).forEach((btn) => btn.addEventListener("click", (e) => {
         }
         else {
             fakestr += "sqrt(";
-            realstr += "Math.sqrt(";
+            //realstr += "Math.sqrt(";
         }
         intagIn.value = fakestr;
     }
